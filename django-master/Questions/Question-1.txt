@@ -1,0 +1,23 @@
+1>> Why Django should be used for web-development? Explain how you
+can create a project in Django?
+
+--> Best Responce : Django Provide a best and very fast Responce for any web page creation and reload .
+
+--> Large library: Django include a large amount of library to used create web application and web site.
+
+--> Secure by Default: Django follows best practices for security and helps protect your application from common web attacks such as SQL injection, cross-site scripting (XSS), and cross-site request forgery (CSRF).
+
+--> Scalable: Django is designed to be scalable and can handle high traffic websites with ease. It has been used to build some of the largest websites on the internet, such as Instagram and Pinterest.
+
+--> Mature and Stable: Django has been around for over 15 years and has a large, active community of developers. This means that it is a mature and stable framework that is constantly being improved and updated.
+
+---------- create a project in Django step
+
+step 1. Install Django:
+        (pip install django)
+
+step 2. Create a new project:
+        (django-admin startproject myproject')
+        
+step 3. Run the server:
+        (python manage.py runserver)

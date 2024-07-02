@@ -1,0 +1,15 @@
+2>> How to check installed version of django?
+
+Method 1: Using `pip`
+            pip show django
+
+Method 2: Using `python -m django`
+            python -m django --version
+
+Method 3: Using `django-admin`
+            django-admin --version
+
+Method 4: Using Python code
+            import django
+
+            print(django.get_version())

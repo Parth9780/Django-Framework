@@ -1,0 +1,13 @@
+4>> What is Django URLs?make program to create django urls
+
+Django URLs are a way to map URLs to views in a Django application. A URL pattern is a regular expression that Django compares to the URL of an incoming request. If it matches, Django calls the corresponding view function.
+
+To create Django URLs, you need to define a list of URL patterns in the urls.py file of your application.
+
+`urls.py`:
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('hello/', views.hello, name='hello'),
+]

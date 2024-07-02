@@ -1,0 +1,14 @@
+3>> Explain what does django-admin.py make messages command is used
+for?
+
+Some –django-admin commands
+
+Django provides several django-admin commands that can be used to manage Django projects and
+perform various administrative tasks. Besides, you can create your own custom management commands
+to perform specific tasks unique to your Django project.
+
+Here are some commonly used django-admin and manage.py commands:
+
+startproject: Creates a new Django project.
+
+django-admin startproject project_name
